@@ -29,4 +29,12 @@ export class ItemComponent implements OnInit, OnChanges {
   editarItem() {
     this.emetindoItemParaEditar.emit(this.item);
   }
+
+  checarItem() {
+    if(this.item.comprado == true){
+      this.item.comprado = false;
+    }else{
+      this.item.comprado = true;
+    }
+  }
 }
