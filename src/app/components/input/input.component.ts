@@ -5,7 +5,7 @@ import {
   OnInit,
   SimpleChanges,
 } from '@angular/core';
-import { Item } from 'src/app/interfaces/iItem';
+import { Item } from 'src/app/interfaces/item';
 import { ListaDeCompraService } from 'src/app/service/lista-de-compra.service';
 
 @Component({
